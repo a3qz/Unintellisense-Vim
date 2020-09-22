@@ -14,4 +14,4 @@ function s:InsertRandomWord()
     execute ':normal! i' . s:GetWord(s:adjectives, s:nouns)
 endfunction
 
-command! InsertRandomVariableName call s:InsertRandomWord() 
+command! Unintellisense call s:InsertRandomWord() 
